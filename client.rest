@@ -1,0 +1,9 @@
+### ローカル 在宅勤務開始
+GET http://localhost:5001/firebase-slackapps/us-central1/sendDiligenceStartEmail
+Content-Type: text/plain
+
+### ローカル実行 在宅勤務終了
+GET http://localhost:5001/firebase-slackapps/us-central1/sendDiligenceEndEmail
+Content-Type: text/plain
+
+
