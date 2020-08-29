@@ -5,10 +5,3 @@ Content-Type: text/plain
 ### ローカル実行 在宅勤務終了
 GET http://localhost:5001/firebase-slackapps/us-central1/sendDiligenceEndEmail
 Content-Type: text/plain
-
-
-### Firebase 在宅勤務開始
-GET https://us-central1-firebase-slackapps.cloudfunctions.net/sendDiligenceStartEmail
-
-### Firebase 在宅勤務終了
-GET https://us-central1-firebase-slackapps.cloudfunctions.net/sendDiligenceEndEmail
