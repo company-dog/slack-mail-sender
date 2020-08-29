@@ -8,7 +8,7 @@ const username = functions.config().gmail.username;
 const to = functions.config().to.email;
 
 moment.locale("ja");
-const now = () => moment().format("lll");
+const now = () => moment().format("YYYY/MM/DD");
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
